@@ -15,5 +15,5 @@ Dependencies
 Being written in pure python, ``pybimaps`` supports >=python-3.3, will probably work on >=python-2.7. and does not require any other dependency.
 
 
-.. |Build Status| image:: https://travis-ci.org/mrocklin/multipledispatch.png
-   :target: https://travis-ci.org/mrocklin/multipledispatch
+.. |Build Status| image:: https://travis-ci.org/waipu/pybimaps.svg
+   :target: https://travis-ci.org/waipu/pybimaps
