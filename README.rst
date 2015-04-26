@@ -1,5 +1,6 @@
 pybimaps - Python Bijective Maps
 ================================
+|Build Status|
 
 Various bijective maps in pure python, internally use two dicts:
 
