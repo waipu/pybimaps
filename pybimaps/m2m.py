@@ -74,10 +74,6 @@ class BijectiveSetSetMap(BMBase):
         v = self.m_kv[key].pop(value)
         self.m_vk[v].remove(key)
         return v
-        
-    def del_key(self, value):
-        key = self.get_key(value)
-        self.del_values(key)
 
     def clear_values(self, key):
         for v in self.get_values(key):
@@ -170,10 +166,6 @@ class BijectiveListSetMap(BMBase):
         v = self.m_kv[key].pop(index)
         self.m_vk[v].remove(key)
         return v
-        
-    def del_key(self, value):
-        key = self.get_key(value)
-        self.del_values(key)
 
     def clear_keys(self, value):
         keys = self.get_key(value)

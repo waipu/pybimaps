@@ -5,5 +5,11 @@ python:
     - "3.4"
     - "pypy"
 
+install:
+    - pip install coverage --use-mirrors
+
+script:    
+    - nosetests
+
 notifications:
   email: false
