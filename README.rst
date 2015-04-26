@@ -2,9 +2,9 @@ pybimaps
 ========
 
 Various bijective maps in pure python, internally use two dicts:
-- one 2 one: ``BijectiveMap``;
-- one 2 many: ``BijectiveListMap``, ``BijectiveSetMap``;
-- many 2 many: ``BijectiveSetSetMap``, ``BijectiveListSetMap``;
+- one 2 one: ``BijectiveMap``
+- one 2 many: ``BijectiveListMap``, ``BijectiveSetMap``
+- many 2 many: ``BijectiveSetSetMap``, ``BijectiveListSetMap``
 
 Dependencies
 ------------
