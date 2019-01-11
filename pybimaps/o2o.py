@@ -5,13 +5,13 @@ from .base import BMBase
 class BijectiveMap(BMBase):
     '''Basic one to one bijective map'''
     def __setitem__(self, key, value):
-        return self.set_value(key, value)
+        self.set_value(key, value)
     
-    def __getitem__(self, key, default=False):
-        return self.get_value(key, default)
+    def __getitem__(self, key):
+        return self.get_value(key)
 
     def __delitem__(self, key):
-        return self.del_value(key)
+        self.del_value(key)
 
     def set_value(self, key, value):
         self.m_kv[key] = value

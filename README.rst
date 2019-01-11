@@ -2,7 +2,7 @@ pybimaps - Python Bijective Maps
 ================================
 |Build Status|
 
-Various bijective maps in pure python, internally use two dicts:
+Various bijective maps in pure python, internally they use two dicts:
 
 -  one 2 one: ``BijectiveMap``;
 
