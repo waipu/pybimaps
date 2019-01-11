@@ -7,7 +7,7 @@ python:
     - "pypy"
 
 install:
-    - pip install coverage --use-mirrors
+    - pip install coverage
 
 script:    
     - nosetests
