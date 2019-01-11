@@ -12,5 +12,13 @@ install:
 script:    
     - nosetests
 
+deploy:
+  provider: pypi
+  user: waipu
+  password:
+    secure: "XMiyz3zjAySegPgIcYtuGbMBsHvEbFAj+NkeyAD11gju3jHW6ZievJux9Kpa52CEqy5bh9PJXHseXwSzl0g1hmIGltBb+Yexcwok4DxdSrPQXkxUK+2Rjr6OJFnIRJR2Xdmkj2UXB747VKi3cE0e6L6cuh+WYhc5lcQp1j+LWaI="
+  on:
+    tags: true
+
 notifications:
   email: true
