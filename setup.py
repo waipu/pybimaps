@@ -2,7 +2,7 @@
 
 from os.path import exists
 from setuptools import setup
-import multipledispatch
+import pybimaps
 
 setup(name='pybimaps',
       version=pybimaps.__version__,
